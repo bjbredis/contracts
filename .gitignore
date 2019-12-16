@@ -1,3 +1,5 @@
+.gitignore
+.Python
 bin/
 lib/
 include/
