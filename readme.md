@@ -8,6 +8,7 @@ Create a faked but coherent Redisearch database with options contracts.
    virtualenv contracts
    cd contracts
    . ./bin/activate
+   pip install -r requirements.txt
    ```
 2. Create a Redisearch DB with the following schema:
    
