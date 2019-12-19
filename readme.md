@@ -5,7 +5,7 @@ Create a faked but coherent Redisearch database with options contracts.
 1. Create a virtual env, activate and install the requirements.
    ```
    git clone https://github.com/bjbredis/contracts.git
-   virtualenv contracts
+   virtualenv -p python3 contracts
    cd contracts
    . ./bin/activate
    pip install -r requirements.txt
