@@ -1,5 +1,7 @@
 # Contracts.py
-Create a faked but coherent Redisearch database with options contracts.
+Create a faked but coherent Redisearch database with options contracts. Here is an example:
+
+<img src="structure.png" width=480 />
 
 # Usage
 1. Create a virtual env, activate and install the requirements.
@@ -38,3 +40,5 @@ Find outstanding value of all contracts of each delivery class, sort by value de
 Find outstanding aggregate value of all contracts expiring  Monday June 1 2020 for each delivery class, descending by value:
 
 `FT.AGGREGATE contracts "@expiry:[1590978200 1590978200]" GROUPBY 1 "@delivery_class" REDUCE sum 1 @value as val SORTBY 2 @val desc`
+
+<img src="aggregate.png" width=600 />
