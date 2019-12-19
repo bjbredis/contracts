@@ -20,9 +20,12 @@ Create a faked but coherent Redisearch database with options contracts. Here is 
    
    `export REDIS_HOSTNAME=localhost; export REDIS_PORT=14000; export INDEX_NAME=contracts; export COUNT=1000;`
 
-4. Run the script with some form of multiplicity. Example: (10x COUNT)
+4. Run the script with some form of multiplicity ( *note:* each process will generate at ~1-1.5k records/sec). 
+   Example: (10x COUNT)
    
    `export END=10; for i in $(seq 1 $END); do python contracts.py \&; done`
+
+
 
 # Sample queries
 Find all contracts of a given product and delivery class:
