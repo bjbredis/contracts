@@ -1,7 +1,7 @@
 Faker==3.0.0
 hiredis==1.0.1
 python-dateutil==2.8.1
-redis==3.3.11
+redis==4.4.4
 redisearch==0.8.0
 rmtest==0.7.0
 six==1.13.0
